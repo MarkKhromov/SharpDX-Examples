@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace SharpDXExamples {
     public static class Menu {
@@ -37,6 +38,8 @@ namespace SharpDXExamples {
                 Console.Clear();
                 Console.WriteLine('\t');
                 Console.WriteLine("\tMenu:");
+                if(items.Any())
+                    Console.WriteLine();
                 for(int i = 1; i < items.Count; i++) {
                     Console.WriteLine($"\t{items[i].Id}. {items[i].Header}");
                 }
