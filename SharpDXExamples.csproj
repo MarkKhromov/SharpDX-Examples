@@ -36,6 +36,9 @@
     <Reference Include="SharpDX">
       <HintPath>Dll\SharpDX.dll</HintPath>
     </Reference>
+    <Reference Include="SharpDX.D3DCompiler">
+      <HintPath>Dll\SharpDX.D3DCompiler.dll</HintPath>
+    </Reference>
     <Reference Include="SharpDX.Desktop">
       <HintPath>Dll\SharpDX.Desktop.dll</HintPath>
     </Reference>
@@ -59,6 +62,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Examples\BuffersShadersHLSL\BuffersShadersHLSL.cs" />
+    <Compile Include="Examples\BuffersShadersHLSL\Camera.cs" />
+    <Compile Include="Examples\BuffersShadersHLSL\ColorShader.cs" />
+    <Compile Include="Examples\BuffersShadersHLSL\Direct3D.cs" />
+    <Compile Include="Examples\BuffersShadersHLSL\Graphics.cs" />
+    <Compile Include="Examples\BuffersShadersHLSL\Model.cs" />
     <Compile Include="Examples\Core\Example.cs" />
     <Compile Include="Examples\Core\ExampleManager.cs" />
     <Compile Include="Examples\InitializingDirectX\Direct3D.cs" />
@@ -70,6 +79,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="d3dcompiler_47.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <Content Include="Examples\BuffersShadersHLSL\Shaders\Color.ps">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Examples\BuffersShadersHLSL\Shaders\Color.vs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
