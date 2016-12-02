@@ -42,6 +42,9 @@
     <Reference Include="SharpDX.Desktop">
       <HintPath>Dll\SharpDX.Desktop.dll</HintPath>
     </Reference>
+    <Reference Include="SharpDX.Direct2D1">
+      <HintPath>Dll\SharpDX.Direct2D1.dll</HintPath>
+    </Reference>
     <Reference Include="SharpDX.Direct3D11">
       <HintPath>Dll\SharpDX.Direct3D11.dll</HintPath>
     </Reference>
@@ -70,14 +73,25 @@
     <Compile Include="Examples\BuffersShadersHLSL\Model.cs" />
     <Compile Include="Examples\Core\Example.cs" />
     <Compile Include="Examples\Core\ExampleManager.cs" />
+    <Compile Include="Examples\Core\Helpers\TextureLoader.cs" />
     <Compile Include="Examples\InitializingDirectX\Direct3D.cs" />
     <Compile Include="Examples\InitializingDirectX\Graphics.cs" />
     <Compile Include="Examples\InitializingDirectX\InitializingDirectX.cs" />
+    <Compile Include="Examples\Texturing\Camera.cs" />
+    <Compile Include="Examples\Texturing\Direct3D.cs" />
+    <Compile Include="Examples\Texturing\Graphics.cs" />
+    <Compile Include="Examples\Texturing\Model.cs" />
+    <Compile Include="Examples\Texturing\Texture.cs" />
+    <Compile Include="Examples\Texturing\TextureShader.cs" />
+    <Compile Include="Examples\Texturing\Texturing.cs" />
     <Compile Include="Menu.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Examples\Texturing\Data\Seafloor.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="App.config" />
     <None Include="d3dcompiler_47.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -88,6 +102,12 @@
     <Content Include="Examples\BuffersShadersHLSL\Shaders\Color.vs">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <None Include="Examples\Texturing\Shaders\Texture.ps">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Examples\Texturing\Shaders\Texture.vs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
