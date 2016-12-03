@@ -85,6 +85,14 @@
     <Compile Include="Examples\InitializingDirectX\Direct3D.cs" />
     <Compile Include="Examples\InitializingDirectX\Graphics.cs" />
     <Compile Include="Examples\InitializingDirectX\InitializingDirectX.cs" />
+    <Compile Include="Examples\ModelRendering3D\Camera.cs" />
+    <Compile Include="Examples\ModelRendering3D\Direct3D.cs" />
+    <Compile Include="Examples\ModelRendering3D\Graphics.cs" />
+    <Compile Include="Examples\ModelRendering3D\Light.cs" />
+    <Compile Include="Examples\ModelRendering3D\LightShader.cs" />
+    <Compile Include="Examples\ModelRendering3D\Model.cs" />
+    <Compile Include="Examples\ModelRendering3D\ModelRendering3D.cs" />
+    <Compile Include="Examples\ModelRendering3D\Texture.cs" />
     <Compile Include="Examples\Texturing\Camera.cs" />
     <Compile Include="Examples\Texturing\Direct3D.cs" />
     <Compile Include="Examples\Texturing\Graphics.cs" />
@@ -97,6 +105,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Examples\ModelRendering3D\Data\Seafloor.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="Examples\DiffuseLighting\Data\Seafloor.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -104,6 +115,15 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Examples\DiffuseLighting\Shaders\Light.vs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Examples\ModelRendering3D\Data\Cube.data">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Examples\ModelRendering3D\Shaders\Light.ps">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Examples\ModelRendering3D\Shaders\Light.vs">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Examples\Texturing\Data\Seafloor.png">
