@@ -177,6 +177,7 @@ namespace SharpDXExamples.Examples.AmbientLighting {
             rasterizerState.Dispose();
             depthStencilView.Dispose();
             depthStencilState.Dispose();
+            depthStencilBuffer.Dispose();
             renderTargetView.Dispose();
             DeviceContext.Dispose();
             Device.Dispose();

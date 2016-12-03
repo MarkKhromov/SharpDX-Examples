@@ -177,6 +177,7 @@ namespace SharpDXExamples.Examples.ModelRendering3D {
             rasterizerState.Dispose();
             depthStencilView.Dispose();
             depthStencilState.Dispose();
+            depthStencilBuffer.Dispose();
             renderTargetView.Dispose();
             DeviceContext.Dispose();
             Device.Dispose();
