@@ -2,6 +2,7 @@
 using System.IO;
 using SharpDX;
 using SharpDX.Direct3D11;
+using SharpDXExamples.Examples.Core.Helpers;
 using Buffer = SharpDX.Direct3D11.Buffer;
 
 namespace SharpDXExamples.Examples.SpecularLighting {
@@ -128,14 +129,14 @@ namespace SharpDXExamples.Examples.SpecularLighting {
                         line = streamReader.ReadLine();
                         if(line != null) {
                             var data = line.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
-                            model[i].X = float.Parse(data[0]);
-                            model[i].Y = float.Parse(data[1]);
-                            model[i].Z = float.Parse(data[2]);
-                            model[i].Tu = float.Parse(data[3]);
-                            model[i].Tv = float.Parse(data[4]);
-                            model[i].Nx = float.Parse(data[5]);
-                            model[i].Ny = float.Parse(data[6]);
-                            model[i].Nz = float.Parse(data[7]);
+                            model[i].X = data[0].ParseFloat();
+                            model[i].Y = data[1].ParseFloat();
+                            model[i].Z = data[2].ParseFloat();
+                            model[i].Tu = data[3].ParseFloat();
+                            model[i].Tv = data[4].ParseFloat();
+                            model[i].Nx = data[5].ParseFloat();
+                            model[i].Ny = data[6].ParseFloat();
+                            model[i].Nz = data[7].ParseFloat();
                         }
                     }
                 }

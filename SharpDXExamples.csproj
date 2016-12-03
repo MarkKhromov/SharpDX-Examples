@@ -81,6 +81,7 @@
     <Compile Include="Examples\BuffersShadersHLSL\Model.cs" />
     <Compile Include="Examples\Core\Example.cs" />
     <Compile Include="Examples\Core\ExampleManager.cs" />
+    <Compile Include="Examples\Core\Helpers\DataParser.cs" />
     <Compile Include="Examples\Core\Helpers\TextureLoader.cs" />
     <Compile Include="Examples\DiffuseLighting\Camera.cs" />
     <Compile Include="Examples\DiffuseLighting\DiffuseLighting.cs" />
