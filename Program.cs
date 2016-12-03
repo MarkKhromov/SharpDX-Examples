@@ -2,6 +2,7 @@
 using SharpDXExamples.Examples.BuffersShadersHLSL;
 using SharpDXExamples.Examples.Core;
 using SharpDXExamples.Examples.DiffuseLighting;
+using SharpDXExamples.Examples.FontEngine;
 using SharpDXExamples.Examples.InitializingDirectX;
 using SharpDXExamples.Examples.ModelRendering3D;
 using SharpDXExamples.Examples.Rendering2D;
@@ -19,6 +20,7 @@ namespace SharpDXExamples {
             Menu.RegisterItem(AmbientLighting.Title, ExampleManager.Run<AmbientLighting>);
             Menu.RegisterItem(SpecularLighting.Title, ExampleManager.Run<SpecularLighting>);
             Menu.RegisterItem(Rendering2D.Title, ExampleManager.Run<Rendering2D>);
+            Menu.RegisterItem(FontEngine.Title, ExampleManager.Run<FontEngine>);
             Menu.Show();
         }
     }

@@ -98,6 +98,15 @@
     <Compile Include="Examples\DiffuseLighting\LightShader.cs" />
     <Compile Include="Examples\DiffuseLighting\Model.cs" />
     <Compile Include="Examples\DiffuseLighting\Texture.cs" />
+    <Compile Include="Examples\FontEngine\Camera.cs" />
+    <Compile Include="Examples\FontEngine\Direct3D.cs" />
+    <Compile Include="Examples\FontEngine\Font.cs" />
+    <Compile Include="Examples\FontEngine\FontEngine.cs" />
+    <Compile Include="Examples\FontEngine\FontShader.cs" />
+    <Compile Include="Examples\FontEngine\Graphics.cs" />
+    <Compile Include="Examples\FontEngine\Text.cs" />
+    <Compile Include="Examples\FontEngine\Texture.cs" />
+    <Compile Include="Examples\FontEngine\VertexType.cs" />
     <Compile Include="Examples\InitializingDirectX\Direct3D.cs" />
     <Compile Include="Examples\InitializingDirectX\Graphics.cs" />
     <Compile Include="Examples\InitializingDirectX\InitializingDirectX.cs" />
@@ -136,6 +145,18 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Examples\FontEngine\Data\Font.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Examples\FontEngine\Data\Font.data">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Examples\FontEngine\Shaders\Font.ps">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Examples\FontEngine\Shaders\Font.vs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="Examples\Rendering2D\Data\Seafloor.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
