@@ -102,6 +102,13 @@
     <Compile Include="Examples\ModelRendering3D\Model.cs" />
     <Compile Include="Examples\ModelRendering3D\ModelRendering3D.cs" />
     <Compile Include="Examples\ModelRendering3D\Texture.cs" />
+    <Compile Include="Examples\Rendering2D\Bitmap.cs" />
+    <Compile Include="Examples\Rendering2D\Camera.cs" />
+    <Compile Include="Examples\Rendering2D\Direct3D.cs" />
+    <Compile Include="Examples\Rendering2D\Graphics.cs" />
+    <Compile Include="Examples\Rendering2D\Rendering2D.cs" />
+    <Compile Include="Examples\Rendering2D\Texture.cs" />
+    <Compile Include="Examples\Rendering2D\TextureShader.cs" />
     <Compile Include="Examples\SpecularLighting\Camera.cs" />
     <Compile Include="Examples\SpecularLighting\Direct3D.cs" />
     <Compile Include="Examples\SpecularLighting\Graphics.cs" />
@@ -122,6 +129,15 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Examples\Rendering2D\Data\Seafloor.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Examples\Rendering2D\Shaders\Texture.ps">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Examples\Rendering2D\Shaders\Texture.vs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="Examples\SpecularLighting\Data\Seafloor.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
