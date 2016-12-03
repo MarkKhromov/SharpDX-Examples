@@ -74,6 +74,14 @@
     <Compile Include="Examples\Core\Example.cs" />
     <Compile Include="Examples\Core\ExampleManager.cs" />
     <Compile Include="Examples\Core\Helpers\TextureLoader.cs" />
+    <Compile Include="Examples\DiffuseLighting\Camera.cs" />
+    <Compile Include="Examples\DiffuseLighting\DiffuseLighting.cs" />
+    <Compile Include="Examples\DiffuseLighting\Direct3D.cs" />
+    <Compile Include="Examples\DiffuseLighting\Graphics.cs" />
+    <Compile Include="Examples\DiffuseLighting\Light.cs" />
+    <Compile Include="Examples\DiffuseLighting\LightShader.cs" />
+    <Compile Include="Examples\DiffuseLighting\Model.cs" />
+    <Compile Include="Examples\DiffuseLighting\Texture.cs" />
     <Compile Include="Examples\InitializingDirectX\Direct3D.cs" />
     <Compile Include="Examples\InitializingDirectX\Graphics.cs" />
     <Compile Include="Examples\InitializingDirectX\InitializingDirectX.cs" />
@@ -89,6 +97,15 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Examples\DiffuseLighting\Data\Seafloor.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Examples\DiffuseLighting\Shaders\Light.ps">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Examples\DiffuseLighting\Shaders\Light.vs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="Examples\Texturing\Data\Seafloor.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

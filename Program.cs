@@ -1,5 +1,6 @@
 ﻿using SharpDXExamples.Examples.BuffersShadersHLSL;
 using SharpDXExamples.Examples.Core;
+using SharpDXExamples.Examples.DiffuseLighting;
 using SharpDXExamples.Examples.InitializingDirectX;
 using SharpDXExamples.Examples.Texturing;
 
@@ -9,6 +10,7 @@ namespace SharpDXExamples {
             Menu.RegisterItem(InitializingDirectX.Title, ExampleManager.Run<InitializingDirectX>);
             Menu.RegisterItem(BuffersShadersHLSL.Title, ExampleManager.Run<BuffersShadersHLSL>);
             Menu.RegisterItem(Texturing.Title, ExampleManager.Run<Texturing>);
+            Menu.RegisterItem(DiffuseLighting.Title, ExampleManager.Run<DiffuseLighting>);
             Menu.Show();
         }
     }
