@@ -65,6 +65,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Examples\AmbientLighting\AmbientLighting.cs" />
+    <Compile Include="Examples\AmbientLighting\Camera.cs" />
+    <Compile Include="Examples\AmbientLighting\Direct3D.cs" />
+    <Compile Include="Examples\AmbientLighting\Graphics.cs" />
+    <Compile Include="Examples\AmbientLighting\Light.cs" />
+    <Compile Include="Examples\AmbientLighting\LightShader.cs" />
+    <Compile Include="Examples\AmbientLighting\Model.cs" />
+    <Compile Include="Examples\AmbientLighting\Texture.cs" />
     <Compile Include="Examples\BuffersShadersHLSL\BuffersShadersHLSL.cs" />
     <Compile Include="Examples\BuffersShadersHLSL\Camera.cs" />
     <Compile Include="Examples\BuffersShadersHLSL\ColorShader.cs" />
@@ -105,6 +113,15 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Examples\AmbientLighting\Data\Cube.data">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Examples\AmbientLighting\Shaders\Light.ps">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Examples\AmbientLighting\Shaders\Light.vs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="Examples\ModelRendering3D\Data\Seafloor.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -131,6 +148,9 @@
     </None>
     <None Include="App.config" />
     <None Include="d3dcompiler_47.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Examples\AmbientLighting\Data\Seafloor.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <Content Include="Examples\BuffersShadersHLSL\Shaders\Color.ps">
