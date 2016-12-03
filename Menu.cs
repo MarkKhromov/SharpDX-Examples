@@ -50,7 +50,9 @@ namespace SharpDXExamples {
                 Console.Write("\tYour choose: ");
                 int selectedItem;
                 if(int.TryParse(Console.ReadLine(), out selectedItem)) {
-                    items[selectedItem].Invoke();
+                    if(selectedItem >= 0 && items.Count > selectedItem) {
+                        items[selectedItem].Invoke();
+                    }
                 }
             }
         }
