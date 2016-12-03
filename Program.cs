@@ -4,6 +4,7 @@ using SharpDXExamples.Examples.Core;
 using SharpDXExamples.Examples.DiffuseLighting;
 using SharpDXExamples.Examples.InitializingDirectX;
 using SharpDXExamples.Examples.ModelRendering3D;
+using SharpDXExamples.Examples.SpecularLighting;
 using SharpDXExamples.Examples.Texturing;
 
 namespace SharpDXExamples {
@@ -15,6 +16,7 @@ namespace SharpDXExamples {
             Menu.RegisterItem(DiffuseLighting.Title, ExampleManager.Run<DiffuseLighting>);
             Menu.RegisterItem(ModelRendering3D.Title, ExampleManager.Run<ModelRendering3D>);
             Menu.RegisterItem(AmbientLighting.Title, ExampleManager.Run<AmbientLighting>);
+            Menu.RegisterItem(SpecularLighting.Title, ExampleManager.Run<SpecularLighting>);
             Menu.Show();
         }
     }
