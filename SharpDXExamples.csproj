@@ -136,6 +136,18 @@
     <Compile Include="Examples\FontEngine\Text.cs" />
     <Compile Include="Examples\FontEngine\Texture.cs" />
     <Compile Include="Examples\FontEngine\VertexType.cs" />
+    <Compile Include="Examples\FpsCpuUsageTimes\Camera.cs" />
+    <Compile Include="Examples\FpsCpuUsageTimes\Cpu.cs" />
+    <Compile Include="Examples\FpsCpuUsageTimes\Direct3D.cs" />
+    <Compile Include="Examples\FpsCpuUsageTimes\Font.cs" />
+    <Compile Include="Examples\FpsCpuUsageTimes\FontShader.cs" />
+    <Compile Include="Examples\FpsCpuUsageTimes\Fps.cs" />
+    <Compile Include="Examples\FpsCpuUsageTimes\FpsCpuUsageTimes.cs" />
+    <Compile Include="Examples\FpsCpuUsageTimes\Graphics.cs" />
+    <Compile Include="Examples\FpsCpuUsageTimes\Text.cs" />
+    <Compile Include="Examples\FpsCpuUsageTimes\Texture.cs" />
+    <Compile Include="Examples\FpsCpuUsageTimes\Timer.cs" />
+    <Compile Include="Examples\FpsCpuUsageTimes\VertexType.cs" />
     <Compile Include="Examples\InitializingDirectX\Direct3D.cs" />
     <Compile Include="Examples\InitializingDirectX\Graphics.cs" />
     <Compile Include="Examples\InitializingDirectX\InitializingDirectX.cs" />
@@ -174,6 +186,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Examples\FpsCpuUsageTimes\Data\Font.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="Examples\DirectSound\Data\Sound.wav">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -211,6 +226,15 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Examples\FontEngine\Shaders\Font.vs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Examples\FpsCpuUsageTimes\Data\Font.data">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Examples\FpsCpuUsageTimes\Shaders\Font.ps">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Examples\FpsCpuUsageTimes\Shaders\Font.vs">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Examples\Rendering2D\Data\Seafloor.png">

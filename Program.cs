@@ -5,6 +5,7 @@ using SharpDXExamples.Examples.DiffuseLighting;
 using SharpDXExamples.Examples.DirectInput;
 using SharpDXExamples.Examples.DirectSound;
 using SharpDXExamples.Examples.FontEngine;
+using SharpDXExamples.Examples.FpsCpuUsageTimes;
 using SharpDXExamples.Examples.InitializingDirectX;
 using SharpDXExamples.Examples.ModelRendering3D;
 using SharpDXExamples.Examples.Rendering2D;
@@ -25,6 +26,7 @@ namespace SharpDXExamples {
             Menu.RegisterItem(FontEngine.Title, ExampleManager.Run<FontEngine>);
             Menu.RegisterItem(DirectInput.Title, ExampleManager.Run<DirectInput>);
             Menu.RegisterItem(DirectSound.Title, ExampleManager.Run<DirectSound>);
+            Menu.RegisterItem(FpsCpuUsageTimes.Title, ExampleManager.Run<FpsCpuUsageTimes>);
             Menu.Show();
         }
     }
