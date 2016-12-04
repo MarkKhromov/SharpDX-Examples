@@ -53,6 +53,10 @@
       <HintPath>packages\SharpDX.Direct3D11.3.1.1\lib\net45\SharpDX.Direct3D11.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="SharpDX.DirectInput, Version=3.1.1.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1, processorArchitecture=MSIL">
+      <HintPath>packages\SharpDX.DirectInput.3.1.1\lib\net45\SharpDX.DirectInput.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="SharpDX.DXGI, Version=3.1.1.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1, processorArchitecture=MSIL">
       <HintPath>packages\SharpDX.DXGI.3.1.1\lib\net45\SharpDX.DXGI.dll</HintPath>
       <Private>True</Private>
@@ -98,6 +102,16 @@
     <Compile Include="Examples\DiffuseLighting\LightShader.cs" />
     <Compile Include="Examples\DiffuseLighting\Model.cs" />
     <Compile Include="Examples\DiffuseLighting\Texture.cs" />
+    <Compile Include="Examples\DirectInput\Camera.cs" />
+    <Compile Include="Examples\DirectInput\Direct3D.cs" />
+    <Compile Include="Examples\DirectInput\DirectInput.cs" />
+    <Compile Include="Examples\DirectInput\Font.cs" />
+    <Compile Include="Examples\DirectInput\FontShader.cs" />
+    <Compile Include="Examples\DirectInput\Graphics.cs" />
+    <Compile Include="Examples\DirectInput\Input.cs" />
+    <Compile Include="Examples\DirectInput\Text.cs" />
+    <Compile Include="Examples\DirectInput\Texture.cs" />
+    <Compile Include="Examples\DirectInput\VertexType.cs" />
     <Compile Include="Examples\FontEngine\Camera.cs" />
     <Compile Include="Examples\FontEngine\Direct3D.cs" />
     <Compile Include="Examples\FontEngine\Font.cs" />
@@ -145,6 +159,18 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Examples\DirectInput\Data\Font.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Examples\DirectInput\Data\Font.data">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Examples\DirectInput\Shaders\Font.ps">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Examples\DirectInput\Shaders\Font.vs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="Examples\FontEngine\Data\Font.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
