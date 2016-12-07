@@ -9,6 +9,7 @@ using SharpDXExamples.Examples.FpsCpuUsageTimes;
 using SharpDXExamples.Examples.FrustumCulling;
 using SharpDXExamples.Examples.InitializingDirectX;
 using SharpDXExamples.Examples.ModelRendering3D;
+using SharpDXExamples.Examples.MultitexturingAndTextureArrays;
 using SharpDXExamples.Examples.Rendering2D;
 using SharpDXExamples.Examples.SpecularLighting;
 using SharpDXExamples.Examples.Texturing;
@@ -29,6 +30,7 @@ namespace SharpDXExamples {
             Menu.RegisterItem(DirectSound.Title, ExampleManager.Run<DirectSound>);
             Menu.RegisterItem(FpsCpuUsageTimes.Title, ExampleManager.Run<FpsCpuUsageTimes>);
             Menu.RegisterItem(FrustumCulling.Title, ExampleManager.Run<FrustumCulling>);
+            Menu.RegisterItem(MultitexturingAndTextureArrays.Title, ExampleManager.Run<MultitexturingAndTextureArrays>);
             Menu.Show();
         }
     }

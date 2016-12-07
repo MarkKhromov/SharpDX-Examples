@@ -176,6 +176,13 @@
     <Compile Include="Examples\ModelRendering3D\Model.cs" />
     <Compile Include="Examples\ModelRendering3D\ModelRendering3D.cs" />
     <Compile Include="Examples\ModelRendering3D\Texture.cs" />
+    <Compile Include="Examples\MultitexturingAndTextureArrays\Camera.cs" />
+    <Compile Include="Examples\MultitexturingAndTextureArrays\Direct3D.cs" />
+    <Compile Include="Examples\MultitexturingAndTextureArrays\Graphics.cs" />
+    <Compile Include="Examples\MultitexturingAndTextureArrays\Model.cs" />
+    <Compile Include="Examples\MultitexturingAndTextureArrays\MultiTextureShader.cs" />
+    <Compile Include="Examples\MultitexturingAndTextureArrays\MultitexturingAndTextureArrays.cs" />
+    <Compile Include="Examples\MultitexturingAndTextureArrays\TextureArray.cs" />
     <Compile Include="Examples\Rendering2D\Bitmap.cs" />
     <Compile Include="Examples\Rendering2D\Camera.cs" />
     <Compile Include="Examples\Rendering2D\Direct3D.cs" />
@@ -203,6 +210,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Examples\MultitexturingAndTextureArrays\Data\Dirt.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Examples\MultitexturingAndTextureArrays\Data\Stone.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="Examples\FrustumCulling\Data\Font.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -276,6 +289,15 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Examples\FrustumCulling\Shaders\Light.vs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Examples\MultitexturingAndTextureArrays\Data\Square.data">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Examples\MultitexturingAndTextureArrays\Shaders\MultiTexture.ps">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Examples\MultitexturingAndTextureArrays\Shaders\MultiTexture.vs">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Examples\Rendering2D\Data\Seafloor.png">
