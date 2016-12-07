@@ -148,6 +148,23 @@
     <Compile Include="Examples\FpsCpuUsageTimes\Texture.cs" />
     <Compile Include="Examples\FpsCpuUsageTimes\Timer.cs" />
     <Compile Include="Examples\FpsCpuUsageTimes\VertexType.cs" />
+    <Compile Include="Examples\FrustumCulling\Camera.cs" />
+    <Compile Include="Examples\FrustumCulling\Direct3D.cs" />
+    <Compile Include="Examples\FrustumCulling\Font.cs" />
+    <Compile Include="Examples\FrustumCulling\FontShader.cs" />
+    <Compile Include="Examples\FrustumCulling\Frustum.cs" />
+    <Compile Include="Examples\FrustumCulling\FrustumCulling.cs" />
+    <Compile Include="Examples\FrustumCulling\Graphics.cs" />
+    <Compile Include="Examples\FrustumCulling\Input.cs" />
+    <Compile Include="Examples\FrustumCulling\Light.cs" />
+    <Compile Include="Examples\FrustumCulling\LightShader.cs" />
+    <Compile Include="Examples\FrustumCulling\Model.cs" />
+    <Compile Include="Examples\FrustumCulling\ModelList.cs" />
+    <Compile Include="Examples\FrustumCulling\Position.cs" />
+    <Compile Include="Examples\FrustumCulling\Text.cs" />
+    <Compile Include="Examples\FrustumCulling\Texture.cs" />
+    <Compile Include="Examples\FrustumCulling\Timer.cs" />
+    <Compile Include="Examples\FrustumCulling\VertexType.cs" />
     <Compile Include="Examples\InitializingDirectX\Direct3D.cs" />
     <Compile Include="Examples\InitializingDirectX\Graphics.cs" />
     <Compile Include="Examples\InitializingDirectX\InitializingDirectX.cs" />
@@ -186,6 +203,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Examples\FrustumCulling\Data\Font.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Examples\FrustumCulling\Data\Seafloor.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="Examples\FpsCpuUsageTimes\Data\Font.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -235,6 +258,24 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Examples\FpsCpuUsageTimes\Shaders\Font.vs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Examples\FrustumCulling\Data\Font.data">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Examples\FrustumCulling\Data\Sphere.data">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Examples\FrustumCulling\Shaders\Font.ps">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Examples\FrustumCulling\Shaders\Font.vs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Examples\FrustumCulling\Shaders\Light.ps">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Examples\FrustumCulling\Shaders\Light.vs">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Examples\Rendering2D\Data\Seafloor.png">
