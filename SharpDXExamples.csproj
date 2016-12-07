@@ -168,6 +168,13 @@
     <Compile Include="Examples\InitializingDirectX\Direct3D.cs" />
     <Compile Include="Examples\InitializingDirectX\Graphics.cs" />
     <Compile Include="Examples\InitializingDirectX\InitializingDirectX.cs" />
+    <Compile Include="Examples\LightMaps\Camera.cs" />
+    <Compile Include="Examples\LightMaps\Direct3D.cs" />
+    <Compile Include="Examples\LightMaps\Graphics.cs" />
+    <Compile Include="Examples\LightMaps\LightMaps.cs" />
+    <Compile Include="Examples\LightMaps\LightMapShader.cs" />
+    <Compile Include="Examples\LightMaps\Model.cs" />
+    <Compile Include="Examples\LightMaps\TextureArray.cs" />
     <Compile Include="Examples\ModelRendering3D\Camera.cs" />
     <Compile Include="Examples\ModelRendering3D\Direct3D.cs" />
     <Compile Include="Examples\ModelRendering3D\Graphics.cs" />
@@ -210,6 +217,21 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Examples\LightMaps\Data\Light.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Examples\LightMaps\Data\Stone.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Examples\LightMaps\Data\Square.data">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Examples\LightMaps\Shaders\LightMap.ps">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Examples\LightMaps\Shaders\LightMap.vs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="Examples\MultitexturingAndTextureArrays\Data\Dirt.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
