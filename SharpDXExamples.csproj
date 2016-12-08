@@ -80,6 +80,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Examples\AlphaMapping\AlphaMapping.cs" />
+    <Compile Include="Examples\AlphaMapping\AlphaMapShader.cs" />
+    <Compile Include="Examples\AlphaMapping\Camera.cs" />
+    <Compile Include="Examples\AlphaMapping\Direct3D.cs" />
+    <Compile Include="Examples\AlphaMapping\Graphics.cs" />
+    <Compile Include="Examples\AlphaMapping\Model.cs" />
+    <Compile Include="Examples\AlphaMapping\TextureArray.cs" />
     <Compile Include="Examples\AmbientLighting\AmbientLighting.cs" />
     <Compile Include="Examples\AmbientLighting\Camera.cs" />
     <Compile Include="Examples\AmbientLighting\Direct3D.cs" />
@@ -217,6 +224,15 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Examples\AlphaMapping\Data\Square.data">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Examples\AlphaMapping\Shaders\AlphaMap.ps">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Examples\AlphaMapping\Shaders\AlphaMap.vs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="Examples\LightMaps\Data\Light.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -381,6 +397,15 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Examples\AmbientLighting\Data\Seafloor.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Examples\AlphaMapping\Data\Dirt.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Examples\AlphaMapping\Data\Stone.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Examples\AlphaMapping\Data\Alpha.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <Content Include="Examples\BuffersShadersHLSL\Shaders\Color.ps">

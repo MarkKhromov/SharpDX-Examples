@@ -1,4 +1,5 @@
-﻿using SharpDXExamples.Examples.AmbientLighting;
+﻿using SharpDXExamples.Examples.AlphaMapping;
+using SharpDXExamples.Examples.AmbientLighting;
 using SharpDXExamples.Examples.BuffersShadersHLSL;
 using SharpDXExamples.Examples.Core;
 using SharpDXExamples.Examples.DiffuseLighting;
@@ -33,6 +34,7 @@ namespace SharpDXExamples {
             Menu.RegisterItem(FrustumCulling.Title, ExampleManager.Run<FrustumCulling>);
             Menu.RegisterItem(MultitexturingAndTextureArrays.Title, ExampleManager.Run<MultitexturingAndTextureArrays>);
             Menu.RegisterItem(LightMaps.Title, ExampleManager.Run<LightMaps>);
+            Menu.RegisterItem(AlphaMapping.Title, ExampleManager.Run<AlphaMapping>);
             Menu.Show();
         }
     }
