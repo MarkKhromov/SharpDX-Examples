@@ -1,6 +1,7 @@
 ﻿using SharpDXExamples.Examples.AlphaMapping;
 using SharpDXExamples.Examples.AmbientLighting;
 using SharpDXExamples.Examples.BuffersShadersHLSL;
+using SharpDXExamples.Examples.BumpMapping;
 using SharpDXExamples.Examples.Core;
 using SharpDXExamples.Examples.DiffuseLighting;
 using SharpDXExamples.Examples.DirectInput;
@@ -35,6 +36,7 @@ namespace SharpDXExamples {
             Menu.RegisterItem(MultitexturingAndTextureArrays.Title, ExampleManager.Run<MultitexturingAndTextureArrays>);
             Menu.RegisterItem(LightMaps.Title, ExampleManager.Run<LightMaps>);
             Menu.RegisterItem(AlphaMapping.Title, ExampleManager.Run<AlphaMapping>);
+            Menu.RegisterItem(BumpMapping.Title, ExampleManager.Run<BumpMapping>);
             Menu.Show();
         }
     }
