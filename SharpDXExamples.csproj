@@ -220,6 +220,14 @@
     <Compile Include="Examples\SpecularLighting\Model.cs" />
     <Compile Include="Examples\SpecularLighting\SpecularLighting.cs" />
     <Compile Include="Examples\SpecularLighting\Texture.cs" />
+    <Compile Include="Examples\SpecularMapping\Camera.cs" />
+    <Compile Include="Examples\SpecularMapping\Direct3D.cs" />
+    <Compile Include="Examples\SpecularMapping\Graphics.cs" />
+    <Compile Include="Examples\SpecularMapping\Light.cs" />
+    <Compile Include="Examples\SpecularMapping\Model.cs" />
+    <Compile Include="Examples\SpecularMapping\SpecularMapping.cs" />
+    <Compile Include="Examples\SpecularMapping\SpecularMapShader.cs" />
+    <Compile Include="Examples\SpecularMapping\TextureArray.cs" />
     <Compile Include="Examples\Texturing\Camera.cs" />
     <Compile Include="Examples\Texturing\Direct3D.cs" />
     <Compile Include="Examples\Texturing\Graphics.cs" />
@@ -232,6 +240,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Examples\SpecularMapping\Data\Cube.data">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Examples\SpecularMapping\Data\Specular.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="Examples\BumpMapping\Data\Bump.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -410,6 +424,18 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Examples\SpecularLighting\Shaders\Light.vs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Examples\SpecularMapping\Data\Bump.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Examples\SpecularMapping\Data\Stone.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Examples\SpecularMapping\Shaders\SpecularMap.ps">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Examples\SpecularMapping\Shaders\SpecularMap.vs">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Examples\Texturing\Data\Seafloor.png">
