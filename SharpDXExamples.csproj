@@ -109,6 +109,13 @@
     <Compile Include="Examples\BumpMapping\Light.cs" />
     <Compile Include="Examples\BumpMapping\Model.cs" />
     <Compile Include="Examples\BumpMapping\TextureArray.cs" />
+    <Compile Include="Examples\ClippingPlanes\Camera.cs" />
+    <Compile Include="Examples\ClippingPlanes\ClippingPlanes.cs" />
+    <Compile Include="Examples\ClippingPlanes\Direct3D.cs" />
+    <Compile Include="Examples\ClippingPlanes\Graphics.cs" />
+    <Compile Include="Examples\ClippingPlanes\ClipPlaneShader.cs" />
+    <Compile Include="Examples\ClippingPlanes\Model.cs" />
+    <Compile Include="Examples\ClippingPlanes\Texture.cs" />
     <Compile Include="Examples\Core\Example.cs" />
     <Compile Include="Examples\Core\ExampleManager.cs" />
     <Compile Include="Examples\Core\Helpers\DataParser.cs" />
@@ -258,6 +265,18 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Examples\ClippingPlanes\Data\Seafloor.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Examples\ClippingPlanes\Data\Triangle.data">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Examples\ClippingPlanes\Shaders\Clipplane.ps">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Examples\ClippingPlanes\Shaders\Clipplane.vs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="Examples\Fog\Data\Seafloor.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

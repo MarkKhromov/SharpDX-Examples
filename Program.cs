@@ -2,6 +2,7 @@
 using SharpDXExamples.Examples.AmbientLighting;
 using SharpDXExamples.Examples.BuffersShadersHLSL;
 using SharpDXExamples.Examples.BumpMapping;
+using SharpDXExamples.Examples.ClippingPlanes;
 using SharpDXExamples.Examples.Core;
 using SharpDXExamples.Examples.DiffuseLighting;
 using SharpDXExamples.Examples.DirectInput;
@@ -43,6 +44,7 @@ namespace SharpDXExamples {
             Menu.RegisterItem(SpecularMapping.Title, ExampleManager.Run<SpecularMapping>);
             Menu.RegisterItem(RenderToTexture.Title, ExampleManager.Run<RenderToTexture>);
             Menu.RegisterItem(Fog.Title, ExampleManager.Run<Fog>);
+            Menu.RegisterItem(ClippingPlanes.Title, ExampleManager.Run<ClippingPlanes>);
             Menu.Show();
         }
     }
