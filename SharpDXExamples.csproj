@@ -212,6 +212,17 @@
     <Compile Include="Examples\Rendering2D\Rendering2D.cs" />
     <Compile Include="Examples\Rendering2D\Texture.cs" />
     <Compile Include="Examples\Rendering2D\TextureShader.cs" />
+    <Compile Include="Examples\RenderToTexture\Camera.cs" />
+    <Compile Include="Examples\RenderToTexture\DebugWindow.cs" />
+    <Compile Include="Examples\RenderToTexture\Direct3D.cs" />
+    <Compile Include="Examples\RenderToTexture\Graphics.cs" />
+    <Compile Include="Examples\RenderToTexture\Light.cs" />
+    <Compile Include="Examples\RenderToTexture\LightShader.cs" />
+    <Compile Include="Examples\RenderToTexture\Model.cs" />
+    <Compile Include="Examples\RenderToTexture\RenderTexture.cs" />
+    <Compile Include="Examples\RenderToTexture\RenderToTexture.cs" />
+    <Compile Include="Examples\RenderToTexture\Texture.cs" />
+    <Compile Include="Examples\RenderToTexture\TextureShader.cs" />
     <Compile Include="Examples\SpecularLighting\Camera.cs" />
     <Compile Include="Examples\SpecularLighting\Direct3D.cs" />
     <Compile Include="Examples\SpecularLighting\Graphics.cs" />
@@ -240,6 +251,24 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Examples\RenderToTexture\Data\Seafloor.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Examples\RenderToTexture\Data\Cube.data">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Examples\RenderToTexture\Shaders\Light.ps">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Examples\RenderToTexture\Shaders\Light.vs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Examples\RenderToTexture\Shaders\Texture.ps">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Examples\RenderToTexture\Shaders\Texture.vs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="Examples\SpecularMapping\Data\Cube.data">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

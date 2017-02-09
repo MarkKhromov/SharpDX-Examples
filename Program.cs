@@ -14,6 +14,7 @@ using SharpDXExamples.Examples.LightMaps;
 using SharpDXExamples.Examples.ModelRendering3D;
 using SharpDXExamples.Examples.MultitexturingAndTextureArrays;
 using SharpDXExamples.Examples.Rendering2D;
+using SharpDXExamples.Examples.RenderToTexture;
 using SharpDXExamples.Examples.SpecularLighting;
 using SharpDXExamples.Examples.SpecularMapping;
 using SharpDXExamples.Examples.Texturing;
@@ -39,6 +40,7 @@ namespace SharpDXExamples {
             Menu.RegisterItem(AlphaMapping.Title, ExampleManager.Run<AlphaMapping>);
             Menu.RegisterItem(BumpMapping.Title, ExampleManager.Run<BumpMapping>);
             Menu.RegisterItem(SpecularMapping.Title, ExampleManager.Run<SpecularMapping>);
+            Menu.RegisterItem(RenderToTexture.Title, ExampleManager.Run<RenderToTexture>);
             Menu.Show();
         }
     }
