@@ -142,6 +142,13 @@
     <Compile Include="Examples\DirectSound\Text.cs" />
     <Compile Include="Examples\DirectSound\Texture.cs" />
     <Compile Include="Examples\DirectSound\VertexType.cs" />
+    <Compile Include="Examples\Fog\Camera.cs" />
+    <Compile Include="Examples\Fog\Direct3D.cs" />
+    <Compile Include="Examples\Fog\Fog.cs" />
+    <Compile Include="Examples\Fog\Graphics.cs" />
+    <Compile Include="Examples\Fog\FogShader.cs" />
+    <Compile Include="Examples\Fog\Model.cs" />
+    <Compile Include="Examples\Fog\Texture.cs" />
     <Compile Include="Examples\FontEngine\Camera.cs" />
     <Compile Include="Examples\FontEngine\Direct3D.cs" />
     <Compile Include="Examples\FontEngine\Font.cs" />
@@ -251,6 +258,18 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Examples\Fog\Data\Seafloor.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Examples\Fog\Data\Cube.data">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Examples\Fog\Shaders\Fog.ps">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Examples\Fog\Shaders\Fog.vs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="Examples\RenderToTexture\Data\Seafloor.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

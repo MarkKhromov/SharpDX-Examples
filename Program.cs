@@ -6,6 +6,7 @@ using SharpDXExamples.Examples.Core;
 using SharpDXExamples.Examples.DiffuseLighting;
 using SharpDXExamples.Examples.DirectInput;
 using SharpDXExamples.Examples.DirectSound;
+using SharpDXExamples.Examples.Fog;
 using SharpDXExamples.Examples.FontEngine;
 using SharpDXExamples.Examples.FpsCpuUsageTimes;
 using SharpDXExamples.Examples.FrustumCulling;
@@ -41,6 +42,7 @@ namespace SharpDXExamples {
             Menu.RegisterItem(BumpMapping.Title, ExampleManager.Run<BumpMapping>);
             Menu.RegisterItem(SpecularMapping.Title, ExampleManager.Run<SpecularMapping>);
             Menu.RegisterItem(RenderToTexture.Title, ExampleManager.Run<RenderToTexture>);
+            Menu.RegisterItem(Fog.Title, ExampleManager.Run<Fog>);
             Menu.Show();
         }
     }
