@@ -1,4 +1,5 @@
-﻿using SharpDXExamples.Examples.AlphaMapping;
+﻿using CLI.Menu;
+using SharpDXExamples.Examples.AlphaMapping;
 using SharpDXExamples.Examples.AmbientLighting;
 using SharpDXExamples.Examples.BuffersShadersHLSL;
 using SharpDXExamples.Examples.BumpMapping;
@@ -24,28 +25,30 @@ using SharpDXExamples.Examples.Texturing;
 namespace SharpDXExamples {
     class Program {
         static void Main(string[] args) {
-            Menu.RegisterItem(InitializingDirectX.Title, ExampleManager.Run<InitializingDirectX>);
-            Menu.RegisterItem(BuffersShadersHLSL.Title, ExampleManager.Run<BuffersShadersHLSL>);
-            Menu.RegisterItem(Texturing.Title, ExampleManager.Run<Texturing>);
-            Menu.RegisterItem(DiffuseLighting.Title, ExampleManager.Run<DiffuseLighting>);
-            Menu.RegisterItem(ModelRendering3D.Title, ExampleManager.Run<ModelRendering3D>);
-            Menu.RegisterItem(AmbientLighting.Title, ExampleManager.Run<AmbientLighting>);
-            Menu.RegisterItem(SpecularLighting.Title, ExampleManager.Run<SpecularLighting>);
-            Menu.RegisterItem(Rendering2D.Title, ExampleManager.Run<Rendering2D>);
-            Menu.RegisterItem(FontEngine.Title, ExampleManager.Run<FontEngine>);
-            Menu.RegisterItem(DirectInput.Title, ExampleManager.Run<DirectInput>);
-            Menu.RegisterItem(DirectSound.Title, ExampleManager.Run<DirectSound>);
-            Menu.RegisterItem(FpsCpuUsageTimes.Title, ExampleManager.Run<FpsCpuUsageTimes>);
-            Menu.RegisterItem(FrustumCulling.Title, ExampleManager.Run<FrustumCulling>);
-            Menu.RegisterItem(MultitexturingAndTextureArrays.Title, ExampleManager.Run<MultitexturingAndTextureArrays>);
-            Menu.RegisterItem(LightMaps.Title, ExampleManager.Run<LightMaps>);
-            Menu.RegisterItem(AlphaMapping.Title, ExampleManager.Run<AlphaMapping>);
-            Menu.RegisterItem(BumpMapping.Title, ExampleManager.Run<BumpMapping>);
-            Menu.RegisterItem(SpecularMapping.Title, ExampleManager.Run<SpecularMapping>);
-            Menu.RegisterItem(RenderToTexture.Title, ExampleManager.Run<RenderToTexture>);
-            Menu.RegisterItem(Fog.Title, ExampleManager.Run<Fog>);
-            Menu.RegisterItem(ClippingPlanes.Title, ExampleManager.Run<ClippingPlanes>);
-            Menu.Show();
+            MenuBuilder.Create()
+                .Item(InitializingDirectX.Title, ExampleManager.Run<InitializingDirectX>)
+                .Item(BuffersShadersHLSL.Title, ExampleManager.Run<BuffersShadersHLSL>)
+                .Item(Texturing.Title, ExampleManager.Run<Texturing>)
+                .Item(DiffuseLighting.Title, ExampleManager.Run<DiffuseLighting>)
+                .Item(ModelRendering3D.Title, ExampleManager.Run<ModelRendering3D>)
+                .Item(AmbientLighting.Title, ExampleManager.Run<AmbientLighting>)
+                .Item(SpecularLighting.Title, ExampleManager.Run<SpecularLighting>)
+                .Item(Rendering2D.Title, ExampleManager.Run<Rendering2D>)
+                .Item(FontEngine.Title, ExampleManager.Run<FontEngine>)
+                .Item(DirectInput.Title, ExampleManager.Run<DirectInput>)
+                .Item(DirectSound.Title, ExampleManager.Run<DirectSound>)
+                .Item(FpsCpuUsageTimes.Title, ExampleManager.Run<FpsCpuUsageTimes>)
+                .Item(FrustumCulling.Title, ExampleManager.Run<FrustumCulling>)
+                .Item(MultitexturingAndTextureArrays.Title, ExampleManager.Run<MultitexturingAndTextureArrays>)
+                .Item(LightMaps.Title, ExampleManager.Run<LightMaps>)
+                .Item(AlphaMapping.Title, ExampleManager.Run<AlphaMapping>)
+                .Item(BumpMapping.Title, ExampleManager.Run<BumpMapping>)
+                .Item(SpecularMapping.Title, ExampleManager.Run<SpecularMapping>)
+                .Item(RenderToTexture.Title, ExampleManager.Run<RenderToTexture>)
+                .Item(Fog.Title, ExampleManager.Run<Fog>)
+                .Item(ClippingPlanes.Title, ExampleManager.Run<ClippingPlanes>)
+                .Show(DisplayMode.Linear)
+            ;
         }
     }
 }
