@@ -20,6 +20,7 @@ using SharpDXExamples.Examples.Rendering2D;
 using SharpDXExamples.Examples.RenderToTexture;
 using SharpDXExamples.Examples.SpecularLighting;
 using SharpDXExamples.Examples.SpecularMapping;
+using SharpDXExamples.Examples.TextureTranslation;
 using SharpDXExamples.Examples.Texturing;
 
 namespace SharpDXExamples {
@@ -47,6 +48,7 @@ namespace SharpDXExamples {
                 .Item(RenderToTexture.Title, ExampleManager.Run<RenderToTexture>)
                 .Item(Fog.Title, ExampleManager.Run<Fog>)
                 .Item(ClippingPlanes.Title, ExampleManager.Run<ClippingPlanes>)
+                .Item(TextureTranslation.Title, ExampleManager.Run<TextureTranslation>)
                 .Show(DisplayMode.Linear)
             ;
         }

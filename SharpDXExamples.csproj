@@ -248,6 +248,13 @@
     <Compile Include="Examples\SpecularMapping\SpecularMapping.cs" />
     <Compile Include="Examples\SpecularMapping\SpecularMapShader.cs" />
     <Compile Include="Examples\SpecularMapping\TextureArray.cs" />
+    <Compile Include="Examples\TextureTranslation\Camera.cs" />
+    <Compile Include="Examples\TextureTranslation\Direct3D.cs" />
+    <Compile Include="Examples\TextureTranslation\Graphics.cs" />
+    <Compile Include="Examples\TextureTranslation\Model.cs" />
+    <Compile Include="Examples\TextureTranslation\Texture.cs" />
+    <Compile Include="Examples\TextureTranslation\TextureTranslation.cs" />
+    <Compile Include="Examples\TextureTranslation\TranslateShader.cs" />
     <Compile Include="Examples\Texturing\Camera.cs" />
     <Compile Include="Examples\Texturing\Direct3D.cs" />
     <Compile Include="Examples\Texturing\Graphics.cs" />
@@ -259,6 +266,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Examples\TextureTranslation\Data\Seafloor.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="Examples\ClippingPlanes\Data\Seafloor.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -497,6 +507,15 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Examples\SpecularMapping\Shaders\SpecularMap.vs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Examples\TextureTranslation\Data\Triangle.data">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Examples\TextureTranslation\Shaders\Translate.ps">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Examples\TextureTranslation\Shaders\Translate.vs">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Examples\Texturing\Data\Seafloor.png">
