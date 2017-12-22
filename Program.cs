@@ -22,6 +22,7 @@ using SharpDXExamples.Examples.SpecularLighting;
 using SharpDXExamples.Examples.SpecularMapping;
 using SharpDXExamples.Examples.TextureTranslation;
 using SharpDXExamples.Examples.Texturing;
+using SharpDXExamples.Examples.Transparency;
 
 namespace SharpDXExamples {
     class Program {
@@ -49,6 +50,7 @@ namespace SharpDXExamples {
                 .Item(Fog.Title, ExampleManager.Run<Fog>)
                 .Item(ClippingPlanes.Title, ExampleManager.Run<ClippingPlanes>)
                 .Item(TextureTranslation.Title, ExampleManager.Run<TextureTranslation>)
+                .Item(Transparency.Title, ExampleManager.Run<Transparency>)
                 .Show(DisplayMode.Linear)
             ;
         }

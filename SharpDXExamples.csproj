@@ -262,10 +262,27 @@
     <Compile Include="Examples\Texturing\Texture.cs" />
     <Compile Include="Examples\Texturing\TextureShader.cs" />
     <Compile Include="Examples\Texturing\Texturing.cs" />
+    <Compile Include="Examples\Transparency\Camera.cs" />
+    <Compile Include="Examples\Transparency\Direct3D.cs" />
+    <Compile Include="Examples\Transparency\Graphics.cs" />
+    <Compile Include="Examples\Transparency\Model.cs" />
+    <Compile Include="Examples\Transparency\Texture.cs" />
+    <Compile Include="Examples\Transparency\TextureShader.cs" />
+    <Compile Include="Examples\Transparency\TransparentShader.cs" />
+    <Compile Include="Examples\Transparency\Transparency.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Examples\Transparency\Data\Dirt.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Examples\Transparency\Data\Square.data">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Examples\Transparency\Data\Stone.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="Examples\TextureTranslation\Data\Seafloor.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -547,6 +564,12 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Examples\Texturing\Shaders\Texture.vs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Examples\Transparency\Shaders\Transparent.ps">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Examples\Transparency\Shaders\Transparent.vs">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="packages.config" />
