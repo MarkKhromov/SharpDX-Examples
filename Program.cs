@@ -16,6 +16,7 @@ using SharpDXExamples.Examples.InitializingDirectX;
 using SharpDXExamples.Examples.LightMaps;
 using SharpDXExamples.Examples.ModelRendering3D;
 using SharpDXExamples.Examples.MultitexturingAndTextureArrays;
+using SharpDXExamples.Examples.Reflection;
 using SharpDXExamples.Examples.Rendering2D;
 using SharpDXExamples.Examples.RenderToTexture;
 using SharpDXExamples.Examples.SpecularLighting;
@@ -51,6 +52,7 @@ namespace SharpDXExamples {
                 .Item(ClippingPlanes.Title, ExampleManager.Run<ClippingPlanes>)
                 .Item(TextureTranslation.Title, ExampleManager.Run<TextureTranslation>)
                 .Item(Transparency.Title, ExampleManager.Run<Transparency>)
+                .Item(Reflection.Title, ExampleManager.Run<Reflection>)
                 .Show(DisplayMode.Linear)
             ;
         }

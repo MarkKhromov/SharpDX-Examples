@@ -214,6 +214,15 @@
     <Compile Include="Examples\MultitexturingAndTextureArrays\MultiTextureShader.cs" />
     <Compile Include="Examples\MultitexturingAndTextureArrays\MultitexturingAndTextureArrays.cs" />
     <Compile Include="Examples\MultitexturingAndTextureArrays\TextureArray.cs" />
+    <Compile Include="Examples\Reflection\Camera.cs" />
+    <Compile Include="Examples\Reflection\Direct3D.cs" />
+    <Compile Include="Examples\Reflection\Graphics.cs" />
+    <Compile Include="Examples\Reflection\Model.cs" />
+    <Compile Include="Examples\Reflection\Reflection.cs" />
+    <Compile Include="Examples\Reflection\RenderTexture.cs" />
+    <Compile Include="Examples\Reflection\Texture.cs" />
+    <Compile Include="Examples\Reflection\TextureShader.cs" />
+    <Compile Include="Examples\Reflection\ReflectionShader.cs" />
     <Compile Include="Examples\Rendering2D\Bitmap.cs" />
     <Compile Include="Examples\Rendering2D\Camera.cs" />
     <Compile Include="Examples\Rendering2D\Direct3D.cs" />
@@ -274,6 +283,24 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Examples\Reflection\Data\Blue.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Examples\Reflection\Data\Floor.data">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Examples\Reflection\Data\Seafloor.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Examples\Reflection\Data\Cube.data">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Examples\Reflection\Shaders\Reflection.ps">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Examples\Reflection\Shaders\Reflection.vs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="Examples\Transparency\Data\Dirt.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
