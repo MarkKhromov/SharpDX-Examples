@@ -241,6 +241,17 @@
     <Compile Include="Examples\RenderToTexture\RenderToTexture.cs" />
     <Compile Include="Examples\RenderToTexture\Texture.cs" />
     <Compile Include="Examples\RenderToTexture\TextureShader.cs" />
+    <Compile Include="Examples\ScreenFades\Bitmap.cs" />
+    <Compile Include="Examples\ScreenFades\Camera.cs" />
+    <Compile Include="Examples\ScreenFades\Direct3D.cs" />
+    <Compile Include="Examples\ScreenFades\Graphics.cs" />
+    <Compile Include="Examples\ScreenFades\Model.cs" />
+    <Compile Include="Examples\ScreenFades\RenderTexture.cs" />
+    <Compile Include="Examples\ScreenFades\ScreenFades.cs" />
+    <Compile Include="Examples\ScreenFades\FadeShader.cs" />
+    <Compile Include="Examples\ScreenFades\Texture.cs" />
+    <Compile Include="Examples\ScreenFades\TextureShader.cs" />
+    <Compile Include="Examples\ScreenFades\Timer.cs" />
     <Compile Include="Examples\SpecularLighting\Camera.cs" />
     <Compile Include="Examples\SpecularLighting\Direct3D.cs" />
     <Compile Include="Examples\SpecularLighting\Graphics.cs" />
@@ -283,6 +294,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Examples\ScreenFades\Data\Seafloor.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="Examples\Reflection\Data\Blue.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -299,6 +313,15 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Examples\Reflection\Shaders\Reflection.vs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Examples\ScreenFades\Data\Cube.data">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Examples\ScreenFades\Shaders\Fade.ps">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Examples\ScreenFades\Shaders\Fade.vs">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Examples\Transparency\Data\Dirt.png">

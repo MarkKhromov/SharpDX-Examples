@@ -19,6 +19,7 @@ using SharpDXExamples.Examples.MultitexturingAndTextureArrays;
 using SharpDXExamples.Examples.Reflection;
 using SharpDXExamples.Examples.Rendering2D;
 using SharpDXExamples.Examples.RenderToTexture;
+using SharpDXExamples.Examples.ScreenFades;
 using SharpDXExamples.Examples.SpecularLighting;
 using SharpDXExamples.Examples.SpecularMapping;
 using SharpDXExamples.Examples.TextureTranslation;
@@ -53,6 +54,7 @@ namespace SharpDXExamples {
                 .Item(TextureTranslation.Title, ExampleManager.Run<TextureTranslation>)
                 .Item(Transparency.Title, ExampleManager.Run<Transparency>)
                 .Item(Reflection.Title, ExampleManager.Run<Reflection>)
+                .Item(ScreenFades.Title, ExampleManager.Run<ScreenFades>)
                 .Show(DisplayMode.Linear)
             ;
         }
